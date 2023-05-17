@@ -7,9 +7,6 @@ body{
     background-position: center;
     background-attachment: fixed;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
 }
 body:before{
@@ -24,7 +21,15 @@ body:before{
 
     opacity: 0.4;
     z-index: -1;
-    
-    
 
+}
+.container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
 }
