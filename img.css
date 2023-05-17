@@ -6,7 +6,9 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 body:before{
@@ -26,7 +28,7 @@ body:before{
 .container{
     display: grid;
     place-items: center;
-    height: 100vh;
+   
 }
 h1{
     color: white;
